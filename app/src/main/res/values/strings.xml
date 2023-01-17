@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CinemaGhar</string>
+    <string name="tab_text_1">Trailers</string>
+    <string name="tab_text_2">Movies</string>
+    <string name="search">Search</string>
+    <string name="no_internet">Network Connection Error</string>
+    <string name="try_again">Try again</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="movies_search">Movies Search</string>
+    <string name="API_KEY">2810b46c0fe82e2e7eb43466581d495f</string>
+</resources>

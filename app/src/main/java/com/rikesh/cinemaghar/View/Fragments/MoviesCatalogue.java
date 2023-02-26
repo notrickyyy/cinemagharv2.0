@@ -119,6 +119,7 @@ public class MoviesCatalogue extends Fragment implements MoviesAdapter.onMovieLi
         intent.putExtra("backDrop_image", movieList.get(position).getBackDrop_image());
         intent.putExtra("release_date", movieList.get(position).getRelease_date());
         intent.putExtra("average_vote", movieList.get(position).getAverage_vote());
+        intent.putExtra("videoId", movieList.get(position).getVideoId());
         startActivity(intent);
     }
 

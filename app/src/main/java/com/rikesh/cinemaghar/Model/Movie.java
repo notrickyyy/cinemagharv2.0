@@ -4,6 +4,7 @@ public class Movie {
     private String title;
     private String description;
     private String image;
+    private String videoId;
     private String backDrop_image;
     private String release_date;
     private double average_vote ;
@@ -12,8 +13,9 @@ public class Movie {
 
     }
 
-    public Movie(String title, String description, String image, String backDrop_image, String release_date, double average_vote) {
+    public Movie(String title, String description, String image, String backDrop_image, String release_date, double average_vote, String videoId) {
         this.title = title;
+        this.videoId = videoId;
         this.description = description;
         this.image = image;
         this.backDrop_image = backDrop_image;
@@ -29,6 +31,13 @@ public class Movie {
         this.title = title;
     }
 
+    public String getVideoId() {
+        return videoId;
+    }
+
+    public void setVideoId(String videoId) {
+        this.videoId = videoId;
+    }
     public String getDescription() {
         return description;
     }
@@ -68,4 +77,6 @@ public class Movie {
     public void setAverage_vote(double average_vote) {
         this.average_vote = average_vote;
     }
+
+
 }

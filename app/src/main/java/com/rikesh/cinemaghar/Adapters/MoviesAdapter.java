@@ -28,7 +28,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHold
         this.mOnMovieListener = mOnMovieListener;
     }
 
-
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView title, description, release_date, average_vote;
         public ImageView img;

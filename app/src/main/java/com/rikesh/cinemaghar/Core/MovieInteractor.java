@@ -80,7 +80,7 @@ public class MovieInteractor implements MovieContract.Interactor {
                     movie.setBackDrop_image(jsonObject1.getString("backdrop_path"));
                     movie.setRelease_date(jsonObject1.getString("release_date"));
                     movie.setDescription(jsonObject1.getString("overview"));
-
+                    movie.setVideoId(jsonObject1.getString("title"));
                     movies.add(movie);
 
                 }
